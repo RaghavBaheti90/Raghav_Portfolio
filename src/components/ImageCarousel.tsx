@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import image1 from '../../Assests/pro 1.jpg';
-import image2 from '../../Assests/pro 2.jpg';
-import image3 from '../../Assests/pro 3.jpg';
 
 const images = [
-  { id: 1, src: image1, alt: 'Project Image 1' },
-  { id: 2, src: image2, alt: 'Project Image 2' },
-  { id: 3, src: image3, alt: 'Project Image 3' },
+  { id: 1, src: '/Raghav-Portfolio/assets/pro 1.jpg', alt: 'Project Image 1' },
+  { id: 2, src: '/Raghav-Portfolio/assets/pro 2.jpg', alt: 'Project Image 2' },
+  { id: 3, src: '/Raghav-Portfolio/assets/pro 3.jpg', alt: 'Project Image 3' },
 ];
 
 export const ImageCarousel = () => {
